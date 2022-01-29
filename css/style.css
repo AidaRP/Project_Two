@@ -18,10 +18,14 @@
 
 /* CARROUSEL IMAGENES */
 .carousel-inner{
-    max-height: 39px;
+    max-width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
+/* FOOTER */
 #foot{
     background: #ff0000fd;
     min-height: 100px;
