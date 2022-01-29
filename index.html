@@ -10,16 +10,70 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <!-- CREACIÓN PARTE DEL ENCABEZADO -->
+    <!-- FONDO  -->
+    
+    <div class="container d-flex align-items-center flex-column"></div>
+    
+    <!-- /* //////////////////////////////////////////////// */ -->
+   
+    <!-- CREACIÓN PARTE DEL ENCABEZADO -->
    <header>
-       <p>Contacta con 'La Baseta' en +34 696 969 696</p>
+     <!-- BARRA DE NAVEGACIÓN -->
+     <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link title" href="#"><img src="../PR2/img/Fotos/Bas_title.jpg" alt=""></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Disabled</a>
+      </li>
+    </ul>
+
+     <!-- /* //////////////////////////////////////////////////////////////////////////////////////////////// */-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <!-- VIDEO PRINCIPAL -->
+        <div class="ratio ratio-16x9">
+          <iframe src="/img/Videos/Video_3.mp4" title="YouTube video" allowfullscreen></iframe>
+        </div>
+         <!-- /* //////////////////////////////////////////////////////////////////////////////////////////////// */-->
+        <div class="carousel-item active">
+          <img src="/img/Fotos/Baseta_1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/Fotos/Baseta_2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/Fotos/Baseta_3.jpg"class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
    </header>
    <!-- /* //////////////////////////////////////////////// */ -->
   
-  <!-- FONDO  -->
-  <div class="container d-flex align-items-center flex-column"></div>
-  <!-- /* //////////////////////////////////////////////// */ -->
-  
+
+ 
   <!-- RELLENO CENTRAL -->
    <div class="card-group">
     <div class="card">
@@ -50,7 +104,7 @@
   <!-- /* //////////////////////////////////////////////// */ -->
   
   <!-- FOOTER -->
-
+  <p>Contacta con 'La Baseta' en +34 696 969 696</p>
 
   <!-- /* //////////////////////////////////////////////// */ -->
 
