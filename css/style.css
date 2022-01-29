@@ -22,11 +22,16 @@
 }
 
 
-  /* ////////////////// */
-  iframe[seamless]{
-    background-color: transparent;
-    border: 0px transparent;
-    padding: 0px;
-    overflow: hidden;
+#foot{
+    background: #ff0000fd;
+    min-height: 100px;
 }
-
+footer p{
+    color: #ff0000fd;
+    text-align: center;
+}
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #ff0000fd;
+}
