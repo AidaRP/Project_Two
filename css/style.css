@@ -99,3 +99,19 @@ footer p{
     width:20%;
 }
 
+/* MENU_ PARTE BEBIDAS, COMIDAS Y POSTRE */
+.menu_title{
+   background-color:aqua;
+   display: flex;
+   justify-content:center;
+   align-content: center;
+
+}
+
+.card-body img{
+    width:50%;
+}
+.bebida{
+    display: flex;
+    justify-content:center;
+}
