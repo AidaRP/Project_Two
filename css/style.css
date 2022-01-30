@@ -101,10 +101,11 @@ footer p{
 
 /* MENU_ PARTE BEBIDAS, COMIDAS Y POSTRE */
 .menu_title{
-   background-color:aqua;
+   background-color:#0099fffd;
    display: flex;
    justify-content:center;
    align-content: center;
+   color: #fbf6f6fd;
 
 }
 
