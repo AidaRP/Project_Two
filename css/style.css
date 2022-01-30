@@ -56,3 +56,10 @@ footer p{
     padding: 0 8px;
     color: #ff00eafd;
 }
+
+/* GEOLOCALIZACIÓN */
+#maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
