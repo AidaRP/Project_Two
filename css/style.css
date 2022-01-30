@@ -1,6 +1,13 @@
 /* //////////////////////////////////////////////// */
 /* <!-- FONDO CONTENEDOR --> */
 /* //////////////////////////////////////////////// */
+/* LOGO NAV_BAR */
+.Foto{
+    border-radius:100%;
+    max-width:7em ;
+    max-height:5em ;
+    object-fit:contain;
+}
 
 .nav_position {
     display: flex;
