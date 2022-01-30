@@ -1,14 +1,25 @@
 /* //////////////////////////////////////////////// */
 /* <!-- FONDO CONTENEDOR --> */
 /* //////////////////////////////////////////////// */
-.background{
-    background-color: aqua;
-   
-   }
 
-.carouseldiv{
+.nav_position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.background_nav{
+    background-color: rgb(126, 203, 255);
     
-   
+    width:50%;
+    
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+
+
 }
 
 /* CARROUSEL IMAGENES */
