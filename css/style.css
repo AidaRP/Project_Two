@@ -24,18 +24,32 @@
     justify-content: center;
     align-items: center;
 }
+.carousel{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    
+}
+#car_1{
+    margin-left: -17em;
+}
+#car_2{
+    margin-left: -37em;
+}
 
 /* FOOTER */
 #foot{
-    background: #ff0000fd;
+    background: #fbf6f6fd;
     min-height: 100px;
 }
 footer p{
-    color: #ff0000fd;
+    color: #e100fffd;
     text-align: center;
 }
 #iconos i{
+    width: 20vw;
     font-size: 26px;
     padding: 0 8px;
-    color: #ff0000fd;
+    color: #ff00eafd;
 }
