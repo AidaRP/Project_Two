@@ -2,18 +2,13 @@
 /* <!-- FONDO CONTENEDOR --> */
 /* //////////////////////////////////////////////// */
 .background{
-    background-image: url(../img/Fotos/Logo_Baas.jpg);
+    background-color: aqua;
+   
    }
-/* //////////////////////////////////////////////// */
-/* ///////////////// */  
-/* //////////////////////////////////////////////// */
-.back_1{
-    width: 40%;
-    background-color: aliceblue;
-}
-.back_2{
-    width: 40%;
-    background-color: aliceblue;
+
+.carouseldiv{
+    
+   
 }
 
 /* CARROUSEL IMAGENES */
@@ -35,7 +30,7 @@
     margin-left: -17em;
 }
 #car_2{
-    margin-left: -37em;
+    margin-left: -21em;
 }
 #car_3{
     margin-left: -20em;
@@ -47,14 +42,15 @@
     min-height: 100px;
 }
 footer p{
-    color: #e100fffd;
+    color: #0099fffd;
     text-align: center;
+    
 }
 #iconos i{
     width: 20vw;
     font-size: 26px;
     padding: 0 8px;
-    color: #ff00eafd;
+    color: #0099fffd;
 }
 
 /* GEOLOCALIZACIÓN */
